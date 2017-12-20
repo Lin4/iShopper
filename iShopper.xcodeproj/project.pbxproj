@@ -15,6 +15,8 @@
 		082F154E1FEA11D200EF13FD /* iShopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F154D1FEA11D200EF13FD /* iShopperTests.swift */; };
 		082F15591FEA11D200EF13FD /* iShopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F15581FEA11D200EF13FD /* iShopperUITests.swift */; };
 		082F15691FEA15CE00EF13FD /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F15681FEA15CE00EF13FD /* CurrencyTextField.swift */; };
+		082F156C1FEABE4200EF13FD /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F156B1FEABE4200EF13FD /* Wage.swift */; };
+		082F156D1FEAC18600EF13FD /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F156B1FEABE4200EF13FD /* Wage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		082F15581FEA11D200EF13FD /* iShopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iShopperUITests.swift; sourceTree = "<group>"; };
 		082F155A1FEA11D200EF13FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		082F15681FEA15CE00EF13FD /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		082F156B1FEABE4200EF13FD /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 		082F15371FEA11D200EF13FD /* iShopper */ = {
 			isa = PBXGroup;
 			children = (
+				082F156A1FEABE1C00EF13FD /* Model */,
 				082F15671FEA15A300EF13FD /* Views */,
 				082F15661FEA13B800EF13FD /* Controller */,
 				082F15381FEA11D200EF13FD /* AppDelegate.swift */,
@@ -142,6 +146,14 @@
 				082F15681FEA15CE00EF13FD /* CurrencyTextField.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		082F156A1FEABE1C00EF13FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				082F156B1FEABE4200EF13FD /* Wage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				082F15691FEA15CE00EF13FD /* CurrencyTextField.swift in Sources */,
+				082F156C1FEABE4200EF13FD /* Wage.swift in Sources */,
 				082F153B1FEA11D200EF13FD /* MainVC.swift in Sources */,
 				082F15391FEA11D200EF13FD /* AppDelegate.swift in Sources */,
 			);
@@ -289,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				082F154E1FEA11D200EF13FD /* iShopperTests.swift in Sources */,
+				082F156D1FEAC18600EF13FD /* Wage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
